@@ -1,14 +1,12 @@
-require "wpdb_activerecord/configuration"
-
-require_relative "wpdb_activerecord/option"
-require_relative "wpdb_activerecord/comment"
-require_relative "wpdb_activerecord/post"
-require_relative "wpdb_activerecord/postmeta"
-require_relative "wpdb_activerecord/term"
-require_relative "wpdb_activerecord/term_relationship"
-require_relative "wpdb_activerecord/term_taxonomy"
-require_relative "wpdb_activerecord/user"
-require_relative "wpdb_activerecord/usermeta"
+require "wpdb_activerecord/option"
+require "wpdb_activerecord/comment"
+require "wpdb_activerecord/post"
+require "wpdb_activerecord/postmeta"
+require "wpdb_activerecord/term"
+require "wpdb_activerecord/term_relationship"
+require "wpdb_activerecord/term_taxonomy"
+require "wpdb_activerecord/user"
+require "wpdb_activerecord/usermeta"
 
 module WPDB
 
