@@ -7,8 +7,8 @@ require "wpdb_activerecord/version"
 Gem::Specification.new do |s|
   s.name        = "wpdb_activerecord"
   s.version     = WpdbActiverecord::VERSION
-  s.authors     = ["hothero"]
-  s.email       = ["hothero0705@gmail.com"]
+  s.authors     = ["hothero", "hzchris"]
+  s.email       = ["hothero0705@gmail.com", "hzchirs@gmail.com"]
   s.homepage    = "https://github.com/hothero/wpdb_activerecord"
   s.summary     = "A ActiveRecord ORM wrapper for WordPress"
   s.description = "WpdbActiverecord gives you a painless way to access and interact with WordPress from ActiveRecord, accessing posts, tags, and all other WordPress concepts as plain-old Ruby objects."
