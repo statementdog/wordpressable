@@ -1,4 +1,4 @@
-module WPDB
+module WordPressable
   class << self
     def initialize
       @@configuration = Configuration.new
@@ -20,17 +20,17 @@ module WPDB
 
     def initialize
       @prefix                  =  "wp_"
-      @option_class            =  "WPDB::Option"
-      @comment_class           =  "WPDB::Comment"
-      @post_class              =  "WPDB::Post"
-      @postmeta_class          =  "WPDB::Postmeta"
-      @term_class              =  "WPDB::Term"
-      @term_relationship_class =  "WPDB::TermRelationship"
-      @term_taxonomy_class     =  "WPDB::TermTaxonomy"
-      @user_class              =  "WPDB::User"
-      @usermeta_class          =  "WPDB::Usermeta"
+      @option_class            =  ""
+      @comment_class           =  ""
+      @post_class              =  ""
+      @postmeta_class          =  ""
+      @term_class              =  ""
+      @term_relationship_class =  ""
+      @term_taxonomy_class     =  ""
+      @user_class              =  ""
+      @usermeta_class          =  ""
     end
   end
 end
 
-WPDB.initialize
+WordPressable.initialize
