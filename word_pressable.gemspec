@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0"
   s.add_dependency "mysql2", "~> 0.3.0"
+  s.add_dependency "php-serialize", "~> 1.2.0"
 end
